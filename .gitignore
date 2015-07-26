@@ -1,0 +1,8 @@
+dist*
+*.hi
+*.o
+.cabal-sandbox
+cabal.sandbox.config
+.DS_Store
+*.swp
+.stack-work
