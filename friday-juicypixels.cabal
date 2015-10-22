@@ -25,7 +25,7 @@ library
   exposed-modules:     Vision.Image.JuicyPixels
   -- other-modules:
   other-extensions:    ViewPatterns
-  build-depends:       base            >= 4.8     &&  <  4.9
+  build-depends:       base            >= 4.7     &&  <  4.9
                      , friday          >= 0.2     &&  <  0.3
                      , JuicyPixels
                      , vector
