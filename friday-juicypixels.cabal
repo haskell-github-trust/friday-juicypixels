@@ -1,7 +1,7 @@
 name:                friday-juicypixels
 version:             0.1.0.2
 synopsis:            Converts between the Friday and JuicyPixels image types
--- description:
+description:         See <https://github.com/TomMD/friday-juicypixels#readme README>
 homepage:            github.com/TomMD/friday-juicypixels
 license:             BSD3
 license-file:        LICENSE
@@ -15,6 +15,7 @@ category:            Codec
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >= 1.18
+tested-with:         GHC==7.8.4, GHC==7.10.2
 
 source-repository head
   type:             git
@@ -25,7 +26,7 @@ library
   exposed-modules:     Vision.Image.JuicyPixels
   -- other-modules:
   other-extensions:    ViewPatterns
-  build-depends:       base            >= 4.8     &&  <  4.9
+  build-depends:       base            >= 4.7     &&  <  4.9
                      , friday          >= 0.2     &&  <  0.3
                      , JuicyPixels
                      , vector
