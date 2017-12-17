@@ -1,7 +1,2 @@
-flags: {}
-packages:
-- '.'
-extra-deps:
-- friday-0.2.2.0
-- ratio-int-0.1.2
-resolver: nightly-2015-07-24
+packages: ['.']
+resolver: nightly-2017-12-16
