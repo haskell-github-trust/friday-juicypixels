@@ -8,10 +8,8 @@ import Data.FileEmbed
 
 import Vision.Image.JuicyPixels
 
-
 rgba8Png :: Data.ByteString.ByteString
 rgba8Png = $(embedFile "test/rgba8.png")
-
 
 main :: IO ()
 main = hspec spec
